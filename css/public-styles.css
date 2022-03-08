@@ -2653,6 +2653,31 @@ footer .footer__inner {
 	outline: none
 }
 
+.work--item__red {
+	background-color: #F87637;
+	color: #D94E30
+}
+
+.work--item__red hr {
+	background-color: #6bd490
+}
+
+.work--item__red a {
+	background-color: #D94E30;
+	color: #F04742
+}
+
+.work--item__red a:focus,
+.work--item__red a:hover {
+	background-color: #417944;
+	color: #F04742
+}
+
+.work--item__red a:focus {
+	box-shadow: 0 0 0 4px #F04742, 0 0 0 8px #000;
+	outline: none
+}
+
 .work--item__blue {
 	background-color: #aee8fa;
 	color: #0a1e31
