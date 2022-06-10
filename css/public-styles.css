@@ -524,6 +524,12 @@ footer .footer__inner {
 	outline: none
 }
 
+.svg_title {
+	max-width: 5%;
+	width: 100%;
+	margin-top: -10%;
+}
+
 .hero {
 	align-items: center;
 	background-color: #000;
