@@ -1,5 +1,3 @@
-
-
 * {
 	box-sizing: border-box
 }
@@ -486,13 +484,13 @@ footer .footer__inner {
 	font-family: Articulat CF, system-ui, sans-serif;
 	padding: 14px 24px;
 	text-decoration: none;
-	transition: background-color .2s cubic-bezier(.5, 1, .5, 1)
+	transition: background-color .2s cubic-bezier(.5, 1, .5, 1);
 }
 
-	.navigation__list__link:focus,
-	.navigation__list__link:hover {
-		background-color: hsla(0, 0%, 98%, .1)
-	}
+.navigation__list__link:focus,
+.navigation__list__link:hover {
+	background-color: hsla(0, 0%, 98%, .1)
+}
 
 @media(max-width:799px) {
 	.navigation__list__link:focus,
@@ -530,6 +528,63 @@ footer .footer__inner {
 
 .error .navigation__list__link:focus,
 .resume .navigation__list__link:focus {
+	box-shadow: 0 0 0 4px #f9f9f9, 0 0 0 8px #000;
+	outline: none
+}
+
+.navigation__list__link__logo {
+	background-color: hsla(0, 0%, 98%, 0);
+	border-radius: 12px;
+	color: #fff;
+	display: inline-block;
+	font-family: Articulat CF, system-ui, sans-serif;
+	padding: 14px 24px;
+	text-decoration: none;
+	transition: background-color .2s cubic-bezier(.5, 1, .5, 1);
+	font-weight: 600;
+}
+
+.navigation__list__link__logo:focus,
+.navigation__list__link__logo:hover {
+	background-color: hsla(0, 0%, 98%, .1)
+}
+
+@media(max-width:799px) {
+	.navigation__list__link__logo:focus,
+	.navigation__list__link__logo:hover {
+		background-color: transparent
+	}
+}
+
+.navigation__list__link__logo:focus {
+	box-shadow: 0 0 0 4px #000, 0 0 0 8px #fff;
+	outline: none
+}
+
+.error .navigation__list__link__logo,
+.resume .navigation__list__link__logo {
+	background-color: rgba(36, 36, 36, 0);
+	color: #000
+}
+
+	.error .navigation__list__link__logo:focus,
+	.error .navigation__list__link__logo:hover,
+	.resume .navigation__list__link__logo:focus,
+	.resume .navigation__list__link__logo:hover {
+		background-color: rgba(36, 36, 36, .1)
+	}
+
+@media(max-width:799px) {
+	.error .navigation__list__link__logo:focus,
+	.error .navigation__list__link__logo:hover,
+	.resume .navigation__list__link__logo:focus,
+	.resume .navigation__list__link__logo:hover {
+		background-color: transparent
+	}
+}
+
+.error .navigation__list__link__logo:focus,
+.resume .navigation__list__link__logo:focus {
 	box-shadow: 0 0 0 4px #f9f9f9, 0 0 0 8px #000;
 	outline: none
 }
