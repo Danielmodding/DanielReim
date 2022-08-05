@@ -1,2 +1,2 @@
 # DanielReim
-Webpage
+Personal WebPage hosted by Github
